@@ -57,13 +57,13 @@ syn match twwrItem "Progressive Picto Box"
 syn match twwrItem "Progressive Quiver"
 syn match twwrItem "Progressive Wallet"
 syn match twwrItem "Magic Meter Upgrade"
-syn match twwrChart "Ghost Ship Chart"
 
 syn match twwrShard /Triforce Shard \?[1-8]\?/
 syn match twwrSword "Progressive Sword"
 syn match twwrBow   "Progressive Bow"
 
 
+syn match twwrLetter "Ghost Ship Chart" "not a letter
 syn match twwrLetter "Note to Mom"
 syn match twwrLetter "Cabana Deed"
 syn match twwrLetter "Moblin's Letter"
@@ -76,9 +76,9 @@ hi link twwrItem Special
 hi link twwrShard Keyword
 hi link twwrSword Keyword
 hi link twwrBow Keyword
-hi link twwrLetter Title
+hi link twwrLetter Identifier
 hi link twwrChart Title
-hi link twwrStatue Title
+hi link twwrStatue Identifier
 hi link twwrContainer Special
 hi link twwrPearl Identifier
 
